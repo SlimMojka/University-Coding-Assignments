@@ -1,88 +1,81 @@
-# Introduction to Computer Science – Laboratory Exercises
+# Wprowadzenie do Informatyki – Ćwiczenia laboratoryjne
 
-This repository contains laboratory assignments for the **Introduction to Computer Science** course.
-The main focus of these labs is learning **basic algorithms** and **fundamental programming concepts** using the **C programming language**.
-
----
-
-## 📌 Contents
-
-The folder includes solutions to laboratory tasks such as:
-
-* Basic input and output operations
-* Conditional statements (`if`, `switch`)
-* Loops (`for`, `while`, `do-while`)
-* Functions
-* Arrays and simple data processing
-* Mathematical and logical algorithms
-* Problem-solving using structured programming
-
-Each laboratory task is implemented as a separate `.c` or `.cpp` source file.
+To repozytorium zawiera zadania laboratoryjne z przedmiotu Wprowadzenie do Informatyki.
+Głównym celem laboratoriów jest nauka podstawowych algorytmów oraz fundamentalnych pojęć
+programistycznych z wykorzystaniem języka C.
 
 ---
 
-## 🛠️ Technologies
+## 📌 Zawartość
 
-* **Programming language:** C (some files may use C++)
-* **Compiler:** GCC / MinGW (or any standard C compiler)
-* **Environment:** Console-based programs
+Repozytorium zawiera rozwiązania zadań laboratoryjnych, takich jak:
+
+- Podstawowe operacje wejścia i wyjścia
+- Instrukcje warunkowe (if, switch)
+- Pętle (for, while, do-while)
+- Funkcje
+- Tablice i proste przetwarzanie danych
+- Algorytmy matematyczne i logiczne
+- Rozwiązywanie problemów z użyciem programowania strukturalnego
+
+Każde zadanie laboratoryjne jest zaimplementowane jako osobny plik źródłowy .c lub .cpp.
 
 ---
 
-## ▶️ How to Compile and Run
+## 🛠️ Technologie
 
-Example using GCC:
+- Język programowania: C (niektóre pliki mogą być w C++)
+- Kompilator: GCC / MinGW (lub dowolny standardowy kompilator C)
+- Środowisko: Programy konsolowe
+
+---
+
+## ▶️ Kompilacja i uruchamianie
+
+Przykład z użyciem GCC (C):
 
 ```bash
 gcc program.c -o program
 ./program
 ```
-
-For C++ files:
-
-```bash
+Dla plików C++:
+```
 g++ program.cpp -o program
 ./program
 ```
-
 ---
 
-## 📂 Project Structure
+## 📂 Struktura projektu
 
-```
 Lab_1/
 Lab_2/
 Lab_3/
 ...
 README.md
-```
 
-Each folder corresponds to a separate laboratory session and contains solutions for the assigned tasks.
-
----
-
-## 🎯 Purpose
-
-The purpose of this repository is to:
-
-* Practice fundamental programming concepts
-* Develop algorithmic thinking
-* Learn how to write clean and structured C code
+Każdy folder odpowiada oddzielnym zajęciom laboratoryjnym i zawiera rozwiązania
+przypisanych zadań.
 
 ---
 
-## ⚠️ Notes
+## 🎯 Cel repozytorium
 
-* Executable files (`.exe`) are not included in the repository
-* The code is written for educational purposes
-* Solutions may not be optimized but focus on clarity and correctness
+Celem tego repozytorium jest:
 
----
-
-## 👤 Author
-
-Slim – Introduction to Computer Science
+- Ćwiczenie podstawowych koncepcji programowania
+- Rozwijanie myślenia algorytmicznego
+- Nauka pisania czytelnego i uporządkowanego kodu w języku C
 
 ---
 
-If you are a student or beginner, feel free to use this repository as a reference while learning C programming.
+## ⚠️ Uwagi
+
+- Pliki wykonywalne (.exe) nie są dołączone do repozytorium
+- Kod został napisany w celach edukacyjnych
+- Rozwiązania mogą nie być zoptymalizowane — nacisk położono na czytelność i poprawność
+
+---
+
+## 👤 Autor
+
+Slim – Wprowadzenie do Informatyki
